@@ -2,7 +2,7 @@
 
 This is a project about applying Deep Convolutional Generative Adversarial Networks(DCGAN) in Keras for anime faces generating.
 
-# Dataset
+## Dataset
 
 The original dataset applied for training of DCGAN could be divided into two parts:
 1. The raw-data:
@@ -17,7 +17,7 @@ anime faces are not enough for building training data. Further prepared data sho
 In this project, most anime face cases is pick from sharing link from https://drive.google.com/file/d/0B4wZXrs0DHMHMEl1ODVpMjRTWEk/view?usp=sharing.
 over 100000 anime faces with similar size as 96 * 96 * 3 are included, which is enough for training.
 
-# Structure of project
+## Structure of project
 1. Data Processing:
 In this project, images of anime face was concatenated in array with range as [-1,1] and stored in .h5 format for fast access.
 In detail:
@@ -43,7 +43,7 @@ test.py: The main file for do sample run of the DCGAN models.
 
 
 
-# Resource
+## Resource
 https://github.com/eriklindernoren/Keras-GAN
 https://drive.google.com/file/d/0B4wZXrs0DHMHMEl1ODVpMjRTWEk/view?usp=sharing
 https://github.com/nagadomi/lbpcascade_animeface
