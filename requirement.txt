@@ -1,0 +1,9 @@
+tensorflow == 1.15.0
+numpy
+pandas
+scikit-learn
+scikit-image
+matplotlib
+PIL
+animeface
+h5p
