@@ -8,7 +8,7 @@ The original dataset applied for training of DCGAN could be divided into two par
 1. The raw-data:
 For this part, the anime faces is cropped and collected from public dataset with various anime images. The API used in cropping
 anime faces is animeface which is good packages for detecting faces in anime images. The detail code for cropping anime faces 
-based on detected result from animeface in certain images could be found in 'data_original.py' in 'Data' folder.
+based on detected result from animeface in certain images could be found in `data_original.py` in `Data` folder.
 
 However, in practical using, since animeface could only detect faces from few obvious anime images from overall dataset, collected 
 anime faces are not enough for building training data. Further prepared data should be required.
