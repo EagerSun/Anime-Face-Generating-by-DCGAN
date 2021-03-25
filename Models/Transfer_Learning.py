@@ -139,7 +139,7 @@ class Transfer(object):
         Return value: shuffled train.
         '''
         idx = np.arange(0, len(train))
-        np.shuffle(idx)
+        np.random.shuffle(idx)
         return train[idx]
 
     def save_and_plot_images(self, iteration, tags):
