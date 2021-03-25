@@ -147,7 +147,7 @@ class DCGANS(object):
         Return value: shuffled train.
         '''
         idx = np.arange(0, len(train))
-        np.shuffle(idx)
+        np.random.shuffle(idx)
         #print(idx.shape)
         return train[idx]
 
