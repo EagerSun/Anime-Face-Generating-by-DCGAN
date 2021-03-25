@@ -1,0 +1,1 @@
+This folder was assigned as the folder for holding the dataset files and stored models and images.
